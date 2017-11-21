@@ -55,6 +55,9 @@ class Deck {
      * @return     {Card[]}  A Sorted hand of cards
      */
     deal(amount) {
+        if (!amount) {
+            amount = this.cards.length;
+        }
         return Card.sortCards(this.cards.splice(this.cards.length - amount, amount));
     }
 }

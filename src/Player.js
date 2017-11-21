@@ -2,9 +2,11 @@
 
 class Player {
 
-    constructor() {
-        hand = [null, null, null, null, null];
+    constructor(type) {
+        this.type = type ? type : "random";
+        this.hand = null;
     }
+
 }
 
 module.exports = Player;
