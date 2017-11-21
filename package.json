@@ -1,0 +1,28 @@
+{
+  "name": "euchreml",
+  "version": "1.0.0",
+  "description": "Euchre using Machine Learning",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Migsect/EuchreML.git"
+  },
+  "keywords": [
+    "euchre",
+    "machine",
+    "learning"
+  ],
+  "author": "Alex Sammons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Migsect/EuchreML/issues"
+  },
+  "homepage": "https://github.com/Migsect/EuchreML#readme",
+  "dependencies": {
+    "synaptic": "^1.1.4"
+  }
+}
